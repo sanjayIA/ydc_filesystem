@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template will be used for sending approval notifications once Data Engineering approves Data Quality Rule</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Data Engineering Approval Email for DQ Rule</name>
+    <style>none</style>
+    <subject>Data Quality Rule : Approval Notification</subject>
+    <textOnly>Hello {!Data_Quality_Rules__c.OwnerFullName},
+
+The request for approval of Data Quality Rule &#39;{!Data_Quality_Rules__c.Name}&#39; have been reviewed and implemented by Data Engineers.
+Please click here to visit the Data Quality Rule.
+
+Thank you,
+Salesforce</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

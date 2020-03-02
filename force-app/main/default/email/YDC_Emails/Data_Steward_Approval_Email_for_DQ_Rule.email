@@ -1,0 +1,5 @@
+Hello {!Data_Quality_Rules__c.OwnerFullName},<br><br>
+The Request for the approval of Data Quality Rule '{!Data_Quality_Rules__c.Name}' is approved by the Data Stewards.<br>
+Please <a href="{!Data_Quality_Rules__c.Link}">click here</a> to visit the Data Quality Rule.<br><br>
+Thank you,<br>
+Salesforce

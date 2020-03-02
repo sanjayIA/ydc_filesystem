@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Informatica EDC - Oracle</masterLabel>
+        <translation><!-- Informatica EDC - Oracle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oracle</masterLabel>
+        <translation><!-- Oracle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PostgreSQL</masterLabel>
+        <translation><!-- PostgreSQL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Redshift</masterLabel>
+        <translation><!-- Redshift --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

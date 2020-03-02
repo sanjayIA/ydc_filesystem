@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Name_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/?sort=&quot; &amp; Full_Name__c &amp; &quot; &gt; AAA&quot;, &quot;&quot;, &quot;_parent&quot;) &amp; 
+HYPERLINK(&quot;/&quot; &amp; Id, Full_Name__c ,&quot;_parent&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Data Domain Full Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

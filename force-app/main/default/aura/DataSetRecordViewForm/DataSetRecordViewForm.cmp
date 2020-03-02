@@ -1,0 +1,17 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    <div class="slds-box">
+        <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Data_Set__c">
+
+                    <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning:outputField fieldName="Name" />
+                            <lightning:outputField fieldName="ydc__Frequency__c" />
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning:outputField fieldName="ydc__Description__c" />
+                        </div>
+                    </div>
+
+        </lightning:recordViewForm>
+    </div>
+</aura:component>

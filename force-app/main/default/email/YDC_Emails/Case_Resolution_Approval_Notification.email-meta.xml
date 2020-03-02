@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Resolution approval notification is sent when the Reviewer approves the Case resolution</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Resolution Approval Notification</name>
+    <style>none</style>
+    <subject>Case Resolution Approval Notification</subject>
+    <textOnly>Hi {!Case.OwnerFullName},
+The case &#39;{!Case.Subject} {!Case.CaseNumber}&#39; has been approved and closed by the reviewer. Following is the link to view the case
+{!Case.Link}
+Thank You
+Salesforce Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

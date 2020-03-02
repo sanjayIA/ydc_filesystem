@@ -1,0 +1,4 @@
+Hi {!Case.OwnerFullName},<br>
+The resolution of the case  '{!Case.Subject}' has been rejected and marked as Invalid by the reviewer. Please resolve the issue. Following is the link to view the case<br>{!Case.Link}<br>
+Thank You<br>
+Salesforce Team

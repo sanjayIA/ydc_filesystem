@@ -1,0 +1,56 @@
+<template>
+    <div class="slds-box slds-theme_default">
+        <lightning-record-edit-form object-api-name="Data_Quality_Rules__c" onsuccess={handleSuccess}
+            id="dataQualityRuleForm">
+
+            <lightning-messages></lightning-messages>
+
+            <!-- <div>
+                <div class="slds-clearfix">
+                    <div class="slds-float_right">
+                        <lightning-button label="Save" onclick={submitForm} variant="brand"></lightning-button>
+                        <lightning-button label="Cancel" title="Cancel" onclick={handleCancel}></lightning-button>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="slds-section slds-is-open">
+                <h3 class="slds-section-title--divider">New Data Quality Rule</h3>
+                <div aria-hidden="false" class="slds-section__content">
+                    <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-input-field field-name="Name" variant="label-stacked" required>
+                            </lightning-input-field>
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-input-field field-name="Data_Quality_Dimension__c" variant="label-stacked" required>
+                            </lightning-input-field>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slds-section slds-is-open">
+                <h3 class="slds-section-title--divider">Relevant Assets</h3>
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_1-of-1">
+                        <c-lookup onsearch={handleSearch} onselectionchange={handleSourceSelected}
+                            label="Relevant Assets" placeholder="Search business and data assets" is-multi-entry="true">
+                        </c-lookup>
+                    </div>
+                </div>
+            </div>
+
+        </lightning-record-edit-form>
+
+        <div>
+            <div class="slds-clearfix">
+                <div class="slds-float_right">
+                    <lightning-button label="Save" onclick={submitForm} variant="brand"></lightning-button>
+                    <lightning-button label="Cancel" title="Cancel" onclick={handleCancel}></lightning-button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</template>

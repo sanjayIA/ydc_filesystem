@@ -1,0 +1,4 @@
+Hi,<br><br>
+A new Column with the name {!Column__c.Name} has been ingested. The Column can be viewed at the link below. <br><br>
+<a href="https://ydc-domain-dev-ed.lightning.force.com/lightning/r/Column__c/{!Column__c.Id}/view">Click Here Navigate To Column </a><br><br>
+Thank You.

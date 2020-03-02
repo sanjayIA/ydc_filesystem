@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template will be used for sending rejection notifications once Data Steward rejects Term.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Data Steward Rejection Email for Term</name>
+    <style>none</style>
+    <subject>Term : Rejection Notification</subject>
+    <textOnly>Hello {!Term__c.OwnerFullName},
+
+The request for approval of Term &#39;{!Term__c.Name}&#39; have been rejected by Data Stewards.
+Please click here : {!Term__c.Link} to visit the Term.
+
+Thank you,
+Salesforce</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
