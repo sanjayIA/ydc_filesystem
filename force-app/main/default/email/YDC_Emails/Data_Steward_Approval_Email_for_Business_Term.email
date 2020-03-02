@@ -1,0 +1,10 @@
+Hello {!Term__c.OwnerFullName},
+<br>
+<br>
+The request for approval of Term '{!Term__c.Name}' have been approved by Data Stewards.
+<br>
+Please <a href="{!Term__c.Link}">click here</a> to visit the Term.
+<br>
+<br>
+Thank you,<br>
+Salesforce

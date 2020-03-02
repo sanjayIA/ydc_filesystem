@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Case.Data_Access_Request</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Your_Data_Connect</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Case.Data_Set__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>YDC_Emails</members>
+        <members>YDC_Emails/Column_Creation</members>
+        <members>YDC_Emails/Table_Creation</members>
+		<members>YDC_Emails/Data_Engineering_Approval_Email_for_DQ_Rule</members>
+        <members>YDC_Emails/Data_Engineering_Rejection_Email_for_DQ_Rule</members>
+		<members>YDC_Emails/Data_Steward_Approval_Email_for_DQ_Rule</members>
+        <members>YDC_Emails/Data_Steward_Approval_Email_for_Business_Term</members>
+		<members>YDC_Emails/Data_steward_Rejection_Email_for_DQ_Rule</members>
+        <members>YDC_Emails/Data_Steward_Rejection_Email_for_Term</members>
+        <members>YDC_Emails/Case_Resolution_Approval_Notification</members>
+        <members>YDC_Emails/Case_Resolution_Rejection_Notification</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>BIField_Column__c-BI Field_Column Layout</members>
+        <members>BIWorkbook_Table__c-BIWorkbook_Table Layout</members>
+        <members>BI__c-BI Layout</members>
+        <members>BiDatasource__c-BiDatasource Layout</members>
+        <members>BiField__c-BiField Layout</members>
+        <members>BiProject__c-BiProject Layout</members>
+        <members>BiView__c-BiView Layout</members>
+        <members>BiWorkbook__c-BiWorkbook Layout</members>
+        <members>Case-Data Access Request Layout</members>
+        <members>Column__c-Column Layout</members>
+        <members>Community__c-Community Layout</members>
+        <members>Data_Element__c-Data Element Layout</members>
+        <members>Data_Quality_Rule_Column__c-Data Quality Rule Column Layout</members>
+        <members>Data_Quality_Rules_Data_Elements__c-Data Quality Rules_Data Elements Layout</members>
+        <members>Data_Quality_Rules__c-Data Quality Rules Layout</members>
+        <members>Data_Set__c-Community Data Set Layout</members>
+        <members>Data_Set__c-Data Set Layout</members>
+        <members>Data_Source__c-Data Source Layout</members>
+        <members>Database__c-Database Layout</members>
+        <members>Glossary__c-Glossary Layout</members>
+        <members>Plan__c-Plan Layout</members>
+        <members>Schema__c-Schema Layout</members>
+        <members>System_Dataset__c-System_ Dataset Layout</members>
+        <members>System__c-System Layout</members>
+        <members>Table__c-Table Layout</members>
+        <members>Term_Column__c-Term Column Layout</members>
+        <members>Term__c-Term Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>CaseType</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+	<types>
+        <members>YDC_Dashboards</members>
+        <members>YDC_Dashboards/DxAZvSSWNSIaDzvkRVMvOucVhEiQom</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>YDC_Reports</members>
+        <members>YDC_Reports/Columns_without_Terms</members>
+        <members>YDC_Reports/Columns_vs_Terms</members>
+        <members>YDC_Reports/Terms_without_Columns</members>
+        <members>YDC_Reports/Terms_vs_Columns</members>
+        <name>Report</name>
+    </types>
+
+    
+	
+    <types>
+        <members>YDC_Documents</members>
+        <members>YDC_Documents/YDC_Case_Icon</members>
+        <members>YDC_Documents/YDC_Community_Icon</members>
+        <members>YDC_Documents/YDC_Glossary_Icon</members>
+        <members>YDC_Documents/YDC_Term_Icon</members>
+        <members>YDC_Documents/YDC_System_Icon</members>
+        <members>YDC_Documents/YDC_Data_Quality_Rule_Icon</members>
+        <members>YDC_Documents/YDC_Data_Set_Icon</members>
+        <members>YDC_Documents/YDC_Data_Element_Icon</members>
+        <members>YDC_Documents/YDC_BI_Server_Icon</members>
+        <members>YDC_Documents/YDC_BI_Data_Source_Icon</members>
+        <members>YDC_Documents/YDC_BI_Project_Icon</members>
+        <members>YDC_Documents/YDC_BI_Workbook_Icon</members>
+        <members>YDC_Documents/YDC_BI_View_Icon</members>
+        <members>YDC_Documents/YDC_BI_Field_Icon</members>
+        <members>YDC_Documents/YDC_Data_Source_Icon</members>
+        <members>YDC_Documents/YDC_Database_Icon</members>
+        <members>YDC_Documents/YDC_Schema_Icon</members>
+        <members>YDC_Documents/YDC_Table_Icon</members>
+        <members>YDC_Documents/YDC_Column_Icon</members>
+        <name>Document</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Group</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Queue</name>
+    </types>
+   
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Create_a_Data_Access_Request</members>
+        <members>Data_Set__c.Subscribe</members>
+        <members>YDC_Create_a_Glossary</members>
+        <members>YDC_Create_a_Term</members>
+        <name>QuickAction</name>
+    </types>
+    
+    <!--<types>
+        <members>YourDataMarketplace_C</members>
+        <name>SiteDotCom</name>
+    </types>
+     <types>
+        <members>YourDataMarketplace</members>
+        <name>CustomSite</name>
+    </types>
+      <types>
+        <members>YourDataMarketplace</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>cbYourDataMarketplace</members>
+        <name>NetworkBranding</name>
+    </types>
+    -->
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+   
+  
+   
+    
+    <version>47.0</version>
+</Package>

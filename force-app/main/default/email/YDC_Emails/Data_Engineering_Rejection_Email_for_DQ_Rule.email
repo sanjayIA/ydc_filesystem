@@ -1,0 +1,10 @@
+Hello {!Data_Quality_Rules__c.OwnerFullName},
+<br>
+<br>
+The request for approval of Data Quality Rule '{!Data_Quality_Rules__c.Name}' have been reviewed and rejected by Data Engineers.
+<br>
+Please <a href="{!Data_Quality_Rules__c.Link}">click here</a> to visit the Data Quality Rule.
+<br>
+<br>
+Thank you,<br>
+Salesforce

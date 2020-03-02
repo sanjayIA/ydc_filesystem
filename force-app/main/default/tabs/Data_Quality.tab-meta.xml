@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Created by Lightning App Builder</description>
+    <flexiPage>Data_Quality</flexiPage>
+    <icon>YDC_Documents/YDC_Data_Quality_Rule_Icon.png</icon>
+    <label>Data Quality</label>
+    <motif>Custom108: TV Widescreen</motif>
+</CustomTab>

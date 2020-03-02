@@ -1,0 +1,4 @@
+Hi {!Case.OwnerFullName},<br>
+The case '{!Case.Subject} {!Case.CaseNumber}' has been approved and closed by the reviewer. Following is the link to view the case<br>{!Case.Link}<br>
+Thank You<br>
+Salesforce Team

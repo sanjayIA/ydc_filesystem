@@ -1,0 +1,22 @@
+svg.d3 .node circle {
+  fill: #999;
+}
+
+svg.d3 .node text {
+  font: 10px sans-serif;
+}
+
+svg.d3 .node--internal circle {
+  fill: #555;
+}
+
+svg.d3 .node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+svg.d3 .link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}

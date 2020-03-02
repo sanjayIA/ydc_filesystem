@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Data Quality Dimension --></label>
+    <name>Data_Quality_Dimension__c</name>
+    <picklistValues>
+        <masterLabel>Accuracy</masterLabel>
+        <translation><!-- Accuracy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completeness</masterLabel>
+        <translation><!-- Completeness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consistency</masterLabel>
+        <translation><!-- Consistency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validity</masterLabel>
+        <translation><!-- Validity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

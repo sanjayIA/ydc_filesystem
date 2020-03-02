@@ -1,0 +1,4 @@
+Hi,<br><br>
+A new Table with the name <Table name >has been ingested. The table can be viewed at the link below.<br><br>
+ <a href="https://ydc-domain-dev-ed.lightning.force.com/lightning/r/Table__c/{!Table__c.Id}/view">Click Here Navigate To Table </a><br><br>
+Thank You.

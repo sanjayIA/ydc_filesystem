@@ -1,0 +1,28 @@
+<aura:component  controller="DataSetController" implements="forceCommunity:availableForAllPageTypes" access="global">
+	<aura:attribute name="mydataLst" type="Object"/>
+     <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    
+  <lightning:layout multipleRows="true">  
+    <aura:iteration items="{!v.mydataLst}" var="records" >
+      <lightning:layoutItem padding="around-small" size="6">  
+        <div id="Tilu" class="slds-box">
+            <lightning:tile label="{!records.Name}" href="{!'/' + records.Id}">
+                <aura:set attribute="media">
+                    <lightning:icon iconName="standard:orders"/>
+                </aura:set>
+                <dl class="slds-dl_horizontal">
+                    <dt class="slds-dl_horizontal__label">
+                        <p class="slds-truncate">{!records.ydc__Description__c}</p>
+                    </dt>
+                    <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                        <p class="slds-truncate">{!records.ydc__Frequency__c}</p>
+                    </dd>
+                </dl>
+            </lightning:tile>
+        </div> 
+       </lightning:layoutItem>
+    </aura:iteration>
+ </lightning:layout>
+    
+    
+</aura:component>
